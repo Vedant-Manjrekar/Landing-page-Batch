@@ -25,7 +25,7 @@ function Advantages() {
             {advantagesData.subheadline}
           </h1>
           <div className='flex mt-[3vh] gap-2 text-[2vw]'>
-            <Image src={bell} width={30} height={30} />
+            <Image alt='bell' src={bell} width={30} height={30} />
             <p className='capitalize'>{advantagesData.title}</p>
           </div>
           <p className='mt-[2vh] font-thin text-[#878684]'>
@@ -36,18 +36,21 @@ function Advantages() {
 
       <div className='sec'>
         <Image
+          alt='img'
           className='rotate-[15deg] right-[5rem] z-10 absolute'
           height={300}
           width={400}
           src={p2}
         />
         <Image
+          alt='img'
           className='rotate-[15deg] right-[9rem] -z-20 absolute'
           height={300}
           width={400}
           src={spot}
         />
         <Image
+          alt='img'
           className='absolute right-[8rem] -z-10'
           height={300}
           width={400}

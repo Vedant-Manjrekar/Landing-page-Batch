@@ -34,8 +34,10 @@ function Footer() {
               <p className='text-[2.5vw] font-light'>
                 {footerData.links.heading}
               </p>
-              {footerData.links.content.map((elem) => (
-                <p className='font-thin text-[1.3vw] m-1'>{elem}</p>
+              {footerData.links.content.map((elem, i) => (
+                <p key={i} className='font-thin text-[1.3vw] m-1'>
+                  {elem}
+                </p>
               ))}
             </div>
 
@@ -43,8 +45,10 @@ function Footer() {
               <p className='text-[2.5vw] font-light'>
                 {footerData.Legal.heading}
               </p>
-              {footerData.Legal.content.map((elem) => (
-                <p className='font-thin m-1 text-[1.3vw]'>{elem}</p>
+              {footerData.Legal.content.map((elem, i) => (
+                <p key={i} className='font-thin m-1 text-[1.3vw]'>
+                  {elem}
+                </p>
               ))}
             </div>
 
@@ -52,8 +56,10 @@ function Footer() {
               <p className='text-[2.5vw] font-light'>
                 {footerData.Product.heading}
               </p>
-              {footerData.Product.content.map((elem) => (
-                <p className='font-thin m-1 text-[1.3vw]'>{elem}</p>
+              {footerData.Product.content.map((elem, i) => (
+                <p key={i} className='font-thin m-1 text-[1.3vw]'>
+                  {elem}
+                </p>
               ))}
             </div>
 
@@ -61,8 +67,10 @@ function Footer() {
               <p className='text-[2.5vw] font-light'>
                 {footerData.Newsletter.heading}
               </p>
-              {footerData.Newsletter.content.map((elem) => (
-                <p className='font-thin m-1 text-[1.3vw]'>{elem}</p>
+              {footerData.Newsletter.content.map((elem, i) => (
+                <p key={i} className='font-thin m-1 text-[1.3vw]'>
+                  {elem}
+                </p>
               ))}
               <div className='flex'>
                 <input
