@@ -1,0 +1,62 @@
+{
+  "navbar": ["Home", "About", "Pricing", "Features"],
+  "hero": {
+    "headline": "make the best financial decisions",
+    "subheadline": "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.",
+    "ctaButtons": [
+      {
+        "text": "Get Started",
+        "link": "/"
+      },
+      {
+        "text": "Watch Video",
+        "link": "/"
+      }
+    ]
+  },
+  "features": {
+    "headline": "features",
+    "subheadline": "uifry premium",
+    "points": ["star", "cube", "cube3d"],
+    "features": [
+      {
+        "head": "budgeting intervals",
+        "desc": "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor."
+      }
+    ]
+  },
+  "advantages": {
+    "headline": "advantages",
+    "subheadline": "why choose Uifry?",
+    "title": "clever notifications",
+    "desc": "Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam."
+  },
+  "faq": {
+    "headline": "faq",
+    "subheadline": "Frequently asked questions",
+    "title": "clever notifications",
+    "quests": [
+      "the best financial accounting app ever!",
+      "Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris."
+    ],
+    "questElems": [1, 2, 3, 4, 5, 6]
+  },
+  "footer": {
+    "mail": "help@frybix.com",
+    "phone": "+1 234 456 678 89",
+    "links": {
+      "heading": "Links",
+      "content": ["Home", "About Us", "Bookings", "Blog"]
+    },
+    "Legal": {
+      "heading": "Legal",
+      "content": ["Terms of use", "Privacy Policy", "Cookie Policy"]
+    },
+    "Product": {
+      "heading": "Product",
+      "content": ["Take tour", "Live Chat", "Reviews"]
+    },
+    "Newsletter": { "heading": "Newletter", "content": ["Stay up to date"] },
+    "copyright": "Copyright 2022 uifry.com all rights reserved"
+  }
+}
