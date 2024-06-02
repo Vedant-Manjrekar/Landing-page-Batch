@@ -24,6 +24,7 @@ function FAQ() {
           <div className='grid grid-cols-2 gap-7'>
             {faqData.questElems.map((elem, i) => (
               <div
+                key={i}
                 className={`${
                   i == 1 || i == 2 || i == 5
                     ? "bg-[white] && text-black"
