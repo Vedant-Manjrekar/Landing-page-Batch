@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Responsive Landing Page",
+  title: "Landing Page",
   description: "Created By Vedant M.",
 };
 
