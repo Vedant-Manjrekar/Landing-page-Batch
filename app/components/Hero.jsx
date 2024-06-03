@@ -24,14 +24,14 @@ function Hero() {
       <div className='fir w-[50vw]'>
         {heroData && heroData.ctaButtons && heroData.ctaButtons.length > 0 && (
           <>
-            <h1 className='headl capitalize w-[50vw] leading-[49px] tracking-tighter mt-[3rem] ml-[5rem]'>
+            <h1 className='headl capitalize w-[50vw] leading-[67px] tracking-tighter mt-[3rem] ml-[5rem]'>
               {heroData.headline}
             </h1>
             <Image
               src={spot}
               className='absolute top-[0rem] rotate-180 w-[20rem] h-[22rem] left-[10rem] -z-10'
             />
-            <h2 className='subh ml-[5rem] mt-[1rem] text-[#878684]'>
+            <h2 className='subh ml-[5rem] mt-[1rem] text-[1rem] text-[#878684]'>
               {heroData.subheadline}
             </h2>
             <div className='ml-[5rem] py-4 flex gap-3'>
